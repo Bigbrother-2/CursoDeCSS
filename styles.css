@@ -1,0 +1,42 @@
+/* NOTAS. */
+
+/* UNIDADES DE MEDIDAS. 
+
+1em=16px
+
+Es recomendable que se usa el em porque es todos los dispositivos va a ser de 16px. Si ponemos la medida en pixeles no todas las pantallas tienen los pixeles iguales y pueden variar. Por eso se lo coloca en em. porque sea donde sea en todos los dispositivos va a ser 16px. 
+*/
+
+
+/* LINKS
+
+Hay 4 estados:
+
+a:link{} aca nos referimos al link tal cual esta. Podemos modificarle el color, subrayado y demas. EJEMPLO primero
+
+a:visited{} Es cuando hacemos click. Es decir lo que pasa despues de hacerle un click EJEMPLO segundo
+
+a:hover{} Es cuando esta el puntero arriba del link. EJEMPLO tercero
+
+a:active{} Es lo que hace cuando mantenemos el click. EJEMPLO cuarto
+
+
+
+*/
+
+#primero{
+    color: brown;
+    font-size: 1em;
+}
+#segundo:visited{
+    color: rgb(42, 165, 128);
+    font-size: 2em;
+}
+#tercero:hover{
+    color: rgb(151, 42, 165);
+    font-size: 1em;
+}
+#cuarto:active{
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
